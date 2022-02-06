@@ -1,0 +1,12 @@
+tx: transaction information
+//tx.origin: the first person who call  
+msg: information about the transaction 
+// msg.sender the entity which call, 
+//msg.value ether sended to the contract 1 wei = 10 ^ (-18)ether
+
+Alice => Smart Contract A => Smart Contract B  
+          tx.origin: Alice    tx.origin: Alice
+          msg.sender: Alice    msg.sender: SMCA
+
+block: composed by all calleds to a smart contract
+block.timestamp: seconds since from 1970

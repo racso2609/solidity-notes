@@ -1,0 +1,6 @@
+1) Enviroment is the red where we go to export our smart contract
+  a) mainnet (ethereum for production, hight cost) 
+  b) local ethereum network (javascript vm)
+2) Account (ethereum address)
+3) gas limit
+  a) gas is the amount of the contract 
